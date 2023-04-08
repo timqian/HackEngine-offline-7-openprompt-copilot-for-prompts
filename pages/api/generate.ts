@@ -20,7 +20,7 @@ const handler = async (req: Request): Promise<Response> => {
   const payload: OpenAIStreamPayload = {
     model: "gpt-3.5-turbo",
     messages: [{ role:"system", content: `
-According to the following guide about how to write better prompt, optimize the prompt I give you. Return only the optimized prompt, nothing else.
+According to the following guide about how to write better prompt, optimize the prompt I give you. Return only the prompt, no other text
 
     --------------------------------
     ### 2. Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context 
