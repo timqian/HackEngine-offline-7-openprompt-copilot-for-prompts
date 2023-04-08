@@ -149,7 +149,7 @@ ${bio}
                     });
                   }}
                 >
-                  <p>{generatedBios}</p>
+                  <p className="whitespace-pre-wrap">{generatedBios}</p>
                 </div>
               </div>
             </>
