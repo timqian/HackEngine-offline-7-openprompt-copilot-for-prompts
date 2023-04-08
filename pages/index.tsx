@@ -142,14 +142,14 @@ ${bio}
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 <div
                   className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
-                  onClick={() => {
-                    navigator.clipboard.writeText(generatedBios);
-                    toast("Prompt copied to clipboard", {
-                      icon: "✂️",
-                    });
-                  }}
+                  // onClick={() => {
+                  //   navigator.clipboard.writeText(generatedBios);
+                  //   toast("Prompt copied to clipboard", {
+                  //     icon: "✂️",
+                  //   });
+                  // }}
                 >
-                  <p className="whitespace-pre-wrap">{generatedBios}</p>
+                  <p className="whitespace-pre-wrap text-left">{generatedBios}</p>
                 </div>
               </div>
             </>
