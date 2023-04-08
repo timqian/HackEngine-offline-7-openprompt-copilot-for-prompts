@@ -11,7 +11,6 @@ import LoadingDots from "../components/LoadingDots";
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [bio, setBio] = useState("");
-  const [vibe, setVibe] = useState<VibeType>("Professional");
   const [generatedBios, setGeneratedBios] = useState<String>("");
 
   const bioRef = useRef<null | HTMLDivElement>(null);
