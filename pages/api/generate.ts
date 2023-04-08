@@ -20,7 +20,7 @@ const handler = async (req: Request): Promise<Response> => {
   const payload: OpenAIStreamPayload = {
     model: "gpt-3.5-turbo",
     messages: [{ role:"system", content: `
-    Generate polished prompts according to the following guide:
+    According to the following guide about how to write better prompt, optimize the prompt I give you.
 
     --------------------------------
     ### 2. Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context 
@@ -160,7 +160,7 @@ const handler = async (req: Request): Promise<Response> => {
     # 2. It converts miles to kilometers
      
     import
-  
+    -------------------------------- 
     `}, {role: "user", content: prompt}],
     temperature: 0.7,
     top_p: 1,
