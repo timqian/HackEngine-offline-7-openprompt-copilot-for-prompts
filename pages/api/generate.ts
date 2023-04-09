@@ -165,13 +165,13 @@ According to the following guide about how to write better prompt, optimize the 
 ${prompt}
 """
 
-## Desired format:
+Desired format:
 
-Optimized Prompt:
+## Optimized Prompt: 
 
 <optimized_prompt>
 
-## What have been optimized:
+## What have been optimized: 
 
 <what have been optimized>
 `}],
