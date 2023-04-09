@@ -175,7 +175,7 @@ What have been optimized:
 
 <what have been optimized>
 `}],
-    temperature: 0.7,
+    temperature: 0,
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,
