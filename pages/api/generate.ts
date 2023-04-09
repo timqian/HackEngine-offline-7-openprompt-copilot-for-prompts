@@ -161,7 +161,20 @@ According to the following guide about how to write better prompt, optimize the 
      
     import
     -------------------------------- 
-    `}, {role: "user", content: prompt}],
+    `}, {role: "user", content: `Original prompt: """
+${prompt}
+"""
+
+Desired format:
+
+Optimized Prompt:
+
+<optimized_prompt>
+
+What have been optimized:
+
+<what have been optimized>
+`}],
     temperature: 0.7,
     top_p: 1,
     frequency_penalty: 0,
