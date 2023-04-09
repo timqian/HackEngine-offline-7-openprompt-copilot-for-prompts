@@ -76,7 +76,13 @@ ${bio}
           Optimize your prompt
         </h1>
         <span className="sm:text-4xl text-3xl text-slate-600 font-light py-4">
-          according to OpenAI's best practices.
+          according to{" "}
+          <a
+            className="underline hover:text-slate-800"
+            href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api"
+          >
+            OpenAI's best practices.
+          </a>
         </span>
         {/* <p className="text-slate-500 mt-5">47,118 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
@@ -149,7 +155,9 @@ ${bio}
                   //   });
                   // }}
                 >
-                  <p className="whitespace-pre-wrap text-left">{generatedBios}</p>
+                  <p className="whitespace-pre-wrap text-left">
+                    {generatedBios}
+                  </p>
                 </div>
               </div>
             </>
