@@ -20,7 +20,7 @@ const handler = async (req: Request): Promise<Response> => {
   const payload: OpenAIStreamPayload = {
     model: "gpt-3.5-turbo",
     messages: [{ role:"system", content: `
-According to the following guide about how to write better prompt, optimize the prompt I give you. Return the prompt, also tell me what have you optimized
+According to the following guide about how to write better prompt, optimize the prompt I give you. Return the prompt, also tell me what have you optimized make it short and clean
 
     --------------------------------
     ### 2. Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context 
@@ -165,13 +165,13 @@ According to the following guide about how to write better prompt, optimize the 
 ${prompt}
 """
 
-Desired format:
+## Desired format:
 
 Optimized Prompt:
 
 <optimized_prompt>
 
-What have been optimized:
+## What have been optimized:
 
 <what have been optimized>
 `}],
