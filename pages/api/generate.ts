@@ -167,11 +167,11 @@ ${prompt}
 
 Desired format:
 
-## Optimized Prompt: 
+Optimized Prompt: 
 
 <optimized_prompt>
 
-## What have been optimized: 
+What have been optimized: 
 
 <what have been optimized>
 `}],
