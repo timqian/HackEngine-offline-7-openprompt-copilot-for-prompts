@@ -142,7 +142,7 @@ ${bio}
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
                 >
-                  Polished prompt
+                  Optimized prompt
                 </h2>
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
